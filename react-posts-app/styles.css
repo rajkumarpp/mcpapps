@@ -1,0 +1,168 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+  font-size: 14px;
+}
+
+/* ── Header ── */
+.app-header {
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* ── Layout ── */
+.app-body {
+  display: flex;
+  height: calc(100vh - 45px);
+}
+
+.main-panel {
+  flex: 1;
+  padding: 24px;
+  overflow-y: auto;
+}
+
+/* ── Form ── */
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 520px;
+}
+
+.post-form h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #444;
+}
+
+.input-title,
+.input-body {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  background: #fff;
+  outline: none;
+  resize: vertical;
+  transition: border-color 0.15s;
+}
+
+.input-title:focus,
+.input-body:focus {
+  border-color: #888;
+}
+
+.btn-submit {
+  align-self: flex-start;
+  padding: 8px 18px;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.btn-submit:hover {
+  background: #444;
+}
+
+/* ── Sidebar ── */
+.sidebar {
+  width: 280px;
+  background: #fff;
+  border-left: 1px solid #e0e0e0;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.badge {
+  background: #e8e8e8;
+  color: #555;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 99px;
+}
+
+.empty-msg {
+  color: #aaa;
+  font-size: 13px;
+}
+
+/* ── Post list ── */
+.post-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-item {
+  position: relative;
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  padding: 10px 32px 10px 12px;
+}
+
+.post-title {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.post-body {
+  font-size: 12px;
+  color: #555;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* ── Delete button ── */
+.btn-delete {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #bbb;
+  font-size: 12px;
+  line-height: 1;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: color 0.1s, background 0.1s;
+}
+
+.btn-delete:hover {
+  color: #e55;
+  background: #fdecea;
+}
