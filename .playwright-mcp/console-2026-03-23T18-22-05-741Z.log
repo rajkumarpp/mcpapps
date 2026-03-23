@@ -1,0 +1,17 @@
+[    3570ms] [WARNING] Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details. @ https://edition.cnn.com/:5341
+[    6199ms] [ERROR] Attestation check for Protected Audience on https://ib.adnxs.com failed. @ https://edition.cnn.com/:0
+[    6200ms] [ERROR] Attestation check for Protected Audience on https://grid-bidder.criteo.com failed. @ https://edition.cnn.com/:0
+[    6200ms] [ERROR] Attestation check for Protected Audience on https://btlr.sharethrough.com failed. @ https://edition.cnn.com/:0
+[    6200ms] [ERROR] Attestation check for Protected Audience on https://btlr.sharethrough.com failed. @ https://edition.cnn.com/:0
+[    6200ms] [ERROR] Attestation check for Protected Audience on https://btlr.sharethrough.com failed. @ https://edition.cnn.com/:0
+[    6200ms] [ERROR] Attestation check for Protected Audience on https://a.teads.tv failed. @ https://edition.cnn.com/:0
+[    6200ms] [ERROR] Attestation check for Protected Audience on https://g2.gumgum.com failed. @ https://edition.cnn.com/:0
+[    6200ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://edition.cnn.com/:0
+[    7124ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:80
+[    7427ms] [ERROR] Not signed in with the identity provider. @ https://edition.cnn.com/:0
+[    8469ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d2uap9jskdzp2/script.js:0
+[   11354ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   11806ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   13577ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:0
+[   14458ms] [ERROR] Player | Player received error, stopping playback session: 55473d24-aa12-4e2e-bf6b-c1aec6a657ab code:1K-0043 message: NoKeySystemAvailable: No key system available on device undefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:1344
+[   40015ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:81

@@ -1,0 +1,24 @@
+[    4503ms] [WARNING] Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details. @ https://edition.cnn.com/:5898
+[    6687ms] [ERROR] Failed to load resource: the server responded with a status of 451 () @ https://api.rlcdn.com/api/identity/envelope?pid=13452:0
+[    8050ms] [ERROR] Failed to load resource: the server responded with a status of 410 (Gone) @ https://ads.stickyadstv.com/user-matching?id=185&_fw_gdpr=0&_fw_gdpr_consent=:0
+[    8356ms] [ERROR] Failed to load resource: the server responded with a status of 410 (Gone) @ https://ads.stickyadstv.com/auto-user-sync:0
+[    9841ms] [ERROR] Attestation check for Protected Audience on https://grid-bidder.criteo.com failed. @ https://edition.cnn.com/:0
+[    9843ms] [ERROR] Attestation check for Protected Audience on https://btlr.sharethrough.com failed. @ https://edition.cnn.com/:0
+[    9844ms] [ERROR] Attestation check for Protected Audience on https://btlr.sharethrough.com failed. @ https://edition.cnn.com/:0
+[    9844ms] [ERROR] Attestation check for Protected Audience on https://btlr.sharethrough.com failed. @ https://edition.cnn.com/:0
+[    9844ms] [ERROR] Attestation check for Protected Audience on https://a.teads.tv failed. @ https://edition.cnn.com/:0
+[    9844ms] [ERROR] Attestation check for Protected Audience on https://ib.adnxs.com failed. @ https://edition.cnn.com/:0
+[    9844ms] [ERROR] Attestation check for Protected Audience on https://g2.gumgum.com failed. @ https://edition.cnn.com/:0
+[    9844ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://edition.cnn.com/:0
+[   10060ms] TypeError: cX.loadScript is not a function
+    at https://cdn.cxense.com/sp1.html:1:416
+[   11027ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603170101/pubads_impl.js:18
+[   11705ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d2uap9jskdzp2/script.js:0
+[   16158ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   16600ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   19634ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:0
+[   20647ms] [ERROR] Player | Player received error, stopping playback session: 3b24bc4f-189a-4d63-a37a-3dde59c5bff6 code:1K-0043 message: NoKeySystemAvailable: No key system available on device undefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:1344
+[   43880ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:80
+[   43908ms] [ERROR] Not signed in with the identity provider. @ https://edition.cnn.com/:0
+[   54751ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:81
